@@ -1,1 +1,88 @@
-// Specific CSS for your home-page
+.home-pg {
+  height: inherit;
+  width: 100%;
+  background-image: radial-gradient(farthest-side at -31% 92%, #49f64466, #00dcb982, #0083bb9c, #0029B1);
+  background-attachment: fixed;
+  h1, h2{
+    font-family: 'Roboto Mono', monospace;
+    color: $orange;
+  }
+  h3 {
+    color: white;
+    text-align: center;
+  }
+}
+
+.heading {
+  text-align: center;
+  height: 100vh;
+  color: $orange;
+  h1 {
+    padding-top: 100px;
+    font-size: 94px;
+    font-weight: bold;
+  }
+  .btn {
+    border-radius: 4px;
+    display: block;
+    margin: 42px auto;
+    width: 184px;
+    padding: 10px;
+  }
+}
+
+.card {
+  text-align: center;
+  padding: 40px;
+  p {
+    margin: 22px 33px;
+  }
+}
+
+.mango-icon {
+  height: 100px;
+  margin: 40px 0 0;
+}
+
+.welcome-card{
+  margin: 100px 40px;
+  max-width: 700px;
+}
+
+.first-row{
+  color: white;
+  background: #00000080;
+  height: 400px;
+  padding: 20px 40px;
+}
+
+.second-row {
+  color: white;
+}
+
+.third-row {
+  margin: 21vh 16vw;
+  text-align: center;
+  background: #ffffff91;
+  p {
+    padding: 0px 3vw 9vh;
+  }
+  h3 {
+    color: black;
+    padding: 2vw;
+  }
+  .card {
+    margin: auto;
+    padding: 0;
+    max-width: 800px;
+  }
+  .mango-icon {
+    margin: -50px 0 23px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .third-row {
+    margin: 40px 1vh 100px;
+  }
+}
